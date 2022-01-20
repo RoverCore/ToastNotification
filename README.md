@@ -1,16 +1,16 @@
 ﻿# ToastNotification - Elegant Notifications For ASP.NET Core Applications
 
-ToastNotification is a Minimal & Elegant Toast Notification Package for ASP.NET Core Web Applications that can be invoked via C#. Compatilble with ASP.NET Core 3.1 and .NET 5.
+ToastNotification is a Minimal & Elegant Toast Notification Package for ASP.NET Core Web Applications that can be invoked via C#. Compatible with ASP.NET 6.  Originally released by Mukesh Murugan as AspNetHero.ToastNotification
 
 ## Features
 
 - 📱 Elegant & Responsive
 - 🐣 Global Configuration to Set the Toast Position, Duration.
-- 🎸 Easily integration with ASP.NET Core 3.1 and .NET 5 Applications.
+- 🎸 Easily integration with ASP.NET 6 Applications.
 - 🎃 Support to render custom HTML content within the toasts
 - 🐣 Simple and Customizable. Create your own custom toast with your favorite color and icons with ease!
 - 👴🏽 Works with TempData internally.
-- 📱 Currently Supports 2 Popuplar JS Library.
+- 📱 Currently Supports 2 Popular JS Library.
 - 📱 Supports AJAX / XHR out of the box.
 
 More Features Coming Soon.
@@ -19,17 +19,17 @@ More Features Coming Soon.
 ## Installation
 
 ```
-Install-Package AspNetCoreHero.ToastNotification
+Install-Package RoverCore.ToastNotification
 ```
 Or
 
 ```
-dotnet add package AspNetCoreHero.ToastNotification
+dotnet add package RoverCore.ToastNotification
 ```
 
 Or
 
-Get it directly from NuGet - https://www.nuget.org/packages/AspNetCoreHero.ToastNotification/
+Get it directly from NuGet - https://www.nuget.org/packages/RoverCore.ToastNotification/
 
 
 As mentioned earlier, this project / package is an ASP.NET Core Abstraction of popular Javascript libraries that are responsible for toast notifications. Currently, 2 popuplar libraries are abstracted , Notyf and ToastifyJs. You can choose to use either of them based on their look and feel. Follow the guide below for each of the toast notification library. Cheers!
@@ -111,7 +111,7 @@ Here, you add the class of the icon as required. Font Awesome icons are supporte
 
 ## Demo - Notyf
 
-A Demo Implementation using ASP.NET Core MVC can be found here - https://github.com/aspnetcorehero/ToastNotification/tree/master/ToastNotification.Notyf
+A Demo Implementation using ASP.NET Core MVC can be found here - https://github.com/RoverCore/ToastNotification/tree/master/ToastNotification.Notyf
 
 # Toastify-Js
 
@@ -181,7 +181,7 @@ _notifyService.Custom("Custom Notification - closes in 5 seconds.", 10, "#135224
 ```
 ## Demo - Toastify
 
-A Demo Implementation using ASP.NET Core MVC can be found here - https://github.com/aspnetcorehero/ToastNotification/tree/master/ToastNotification.Toastify
+A Demo Implementation using ASP.NET Core MVC can be found here - https://github.com/RoverCore/ToastNotification/tree/master/ToastNotification.Toastify
 
 # Mentions
 

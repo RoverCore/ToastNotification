@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6</TargetFrameworks>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Mukesh Murugan, Michael Tanczos</Authors>
+    <Company>RoverCore</Company>
+    <Product>RoverCore.ToastNotification</Product>
+    <Description>Elegant Toast Notifications for ASP.NET Core Applications. Compatible with ASP.NET .NET 6.</Description>
+    <Copyright>2022</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion>
+    <Version>1.1.0</Version>
+    <PackageProjectUrl>https://github.com/rovercore/ToastNotification</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rovercore/ToastNotification</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+
+</Project>

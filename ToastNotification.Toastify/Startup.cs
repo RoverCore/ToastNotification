@@ -1,4 +1,4 @@
-using AspNetCoreHero.ToastNotification;
+using RoverCore.ToastNotification;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
