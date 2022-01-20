@@ -13,7 +13,7 @@ namespace RoverCore.ToastNotification.Abstractions
         {
             Message = message;
             Type = type;
-            Duration = (durationInSeconds == null || durationInSeconds == 0) ? null : durationInSeconds * 1000;
+            Duration = durationInSeconds is null or 0 ? null : durationInSeconds * 1000;
         }
         public string Message { get; set; }
         public string BackgroundColor { get; set; }
