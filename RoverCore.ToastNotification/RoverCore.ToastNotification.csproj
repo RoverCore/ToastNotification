@@ -10,13 +10,14 @@
     <Product>RoverCore.ToastNotification</Product>
     <Description>Elegant Toast Notifications for ASP.NET Core Applications. Compatible with ASP.NET .NET 6.</Description>
     <Copyright>2022</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.2.0</AssemblyVersion>
-    <FileVersion>1.2.0</FileVersion>
-    <Version>1.2.0</Version>
+    <Version>1.2.2</Version>
     <PackageProjectUrl>https://github.com/rovercore/ToastNotification</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rovercore/ToastNotification</RepositoryUrl>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	</PropertyGroup>
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
@@ -26,5 +27,16 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Include="..\logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="LICENSE.txt" />
+	</ItemGroup>
 
 </Project>
